@@ -25,13 +25,10 @@ struct ContentView: View {
                 Section(header: Text("Your name")) {
                     TextField("Your name", text: $userName, prompt: Text("Your name"))
                 }
-                    
                     Section(header: Text("Toppings")) {
                         Toggle("Tomato", isOn: $selectTomato)
                         Toggle("Cheese", isOn: $selectCheese)
                         Toggle("Mushroom", isOn: $selectMushroom)}
-                    
-                    //step7
                     ColorPicker ("the color of your pizza box", selection: .constant(.blue))
                     
                 }
