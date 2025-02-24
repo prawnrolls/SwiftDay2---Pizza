@@ -10,9 +10,10 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var userName:String = ""
-    @State private var selectTomato:Bool = false
-    @State private var selectCheese:Bool = false
-    @State private var selectMushroom:Bool = false
+   // @State private var selectTomato:Bool = false
+    //@State private var selectCheese:Bool = false
+    //@State private var selectMushroom:Bool = false
+    //@State private var selectedColor:Color = .blue
     
     var body: some View {
         VStack {
@@ -21,24 +22,29 @@ struct ContentView: View {
             Text("It's pizza time")
             Form {
                 
-                Section(header: Text("Hello!")) {
-                Section(header: Text("Your name")) {
-                    TextField("Your name", text: $userName, prompt: Text("Your name"))
-                }
-                    Section(header: Text("Toppings")) {
-                        Toggle("Tomato", isOn: $selectTomato)
-                        Toggle("Cheese", isOn: $selectCheese)
-                        Toggle("Mushroom", isOn: $selectMushroom)}
-                    ColorPicker ("the color of your pizza box", selection: .constant(.blue))
+                //Section(header: Text("Your name for the order")){
                     
+                    Section(header: Text("Your name")) {
+                        TextField("Your name", text: $userName )
+                    }
+                    
+                Section(header: Text("Toppings")) {
+                    Toggle("Tomato", isOn: .constant(true))
+                    Toggle("Cheese", isOn: .constant(true))
+                    Toggle("Mushroom", isOn: .constant(false))
                 }
+                    
+                  //  Section (
+                ColorPicker ("the color of your pizza box", selection: .constant(.blue))
+                }
+                
             }
             
         }
-        .padding()
+       // .padding()
     }
     
-}
+
 #Preview {
     ContentView()
 }

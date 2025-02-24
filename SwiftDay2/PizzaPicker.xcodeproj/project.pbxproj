@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D706F9FA2D67EB7900C23A24 /* PizzaPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PizzaPicker.xcodeproj; sourceTree = "<group>"; };
-		D7DFBA082D66B30900F232FE /* SwiftDay2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDay2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D706F9E92D67EB7700C23A24 /* PizzaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D7DFBA0A2D66B30900F232FE /* SwiftDay2 */ = {
+		D706F9EB2D67EB7700C23A24 /* PizzaPicker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftDay2;
+			path = PizzaPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7DFBA052D66B30900F232FE /* Frameworks */ = {
+		D706F9E62D67EB7700C23A24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,25 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D706F9FB2D67EB7900C23A24 /* Products */ = {
+		D706F9E02D67EB7700C23A24 = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D7DFB9FF2D66B30900F232FE = {
-			isa = PBXGroup;
-			children = (
-				D7DFBA0A2D66B30900F232FE /* SwiftDay2 */,
-				D7DFBA092D66B30900F232FE /* Products */,
+				D706F9EB2D67EB7700C23A24 /* PizzaPicker */,
+				D706F9EA2D67EB7700C23A24 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7DFBA092D66B30900F232FE /* Products */ = {
+		D706F9EA2D67EB7700C23A24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7DFBA082D66B30900F232FE /* SwiftDay2.app */,
+				D706F9E92D67EB7700C23A24 /* PizzaPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,70 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7DFBA072D66B30900F232FE /* SwiftDay2 */ = {
+		D706F9E82D67EB7700C23A24 /* PizzaPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7DFBA162D66B30B00F232FE /* Build configuration list for PBXNativeTarget "SwiftDay2" */;
+			buildConfigurationList = D706F9F72D67EB7900C23A24 /* Build configuration list for PBXNativeTarget "PizzaPicker" */;
 			buildPhases = (
-				D7DFBA042D66B30900F232FE /* Sources */,
-				D7DFBA052D66B30900F232FE /* Frameworks */,
-				D7DFBA062D66B30900F232FE /* Resources */,
+				D706F9E52D67EB7700C23A24 /* Sources */,
+				D706F9E62D67EB7700C23A24 /* Frameworks */,
+				D706F9E72D67EB7700C23A24 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D7DFBA0A2D66B30900F232FE /* SwiftDay2 */,
+				D706F9EB2D67EB7700C23A24 /* PizzaPicker */,
 			);
-			name = SwiftDay2;
+			name = PizzaPicker;
 			packageProductDependencies = (
 			);
-			productName = SwiftDay2;
-			productReference = D7DFBA082D66B30900F232FE /* SwiftDay2.app */;
+			productName = PizzaPicker;
+			productReference = D706F9E92D67EB7700C23A24 /* PizzaPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7DFBA002D66B30900F232FE /* Project object */ = {
+		D706F9E12D67EB7700C23A24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					D7DFBA072D66B30900F232FE = {
+					D706F9E82D67EB7700C23A24 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = D7DFBA032D66B30900F232FE /* Build configuration list for PBXProject "SwiftDay2" */;
+			buildConfigurationList = D706F9E42D67EB7700C23A24 /* Build configuration list for PBXProject "PizzaPicker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D7DFB9FF2D66B30900F232FE;
+			mainGroup = D706F9E02D67EB7700C23A24;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D7DFBA092D66B30900F232FE /* Products */;
+			productRefGroup = D706F9EA2D67EB7700C23A24 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D706F9FB2D67EB7900C23A24 /* Products */;
-					ProjectRef = D706F9FA2D67EB7900C23A24 /* PizzaPicker.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				D7DFBA072D66B30900F232FE /* SwiftDay2 */,
+				D706F9E82D67EB7700C23A24 /* PizzaPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7DFBA062D66B30900F232FE /* Resources */ = {
+		D706F9E72D67EB7700C23A24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7DFBA042D66B30900F232FE /* Sources */ = {
+		D706F9E52D67EB7700C23A24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D7DFBA142D66B30B00F232FE /* Debug */ = {
+		D706F9F52D67EB7900C23A24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		D7DFBA152D66B30B00F232FE /* Release */ = {
+		D706F9F62D67EB7900C23A24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,14 +244,14 @@
 			};
 			name = Release;
 		};
-		D7DFBA172D66B30B00F232FE /* Debug */ = {
+		D706F9F82D67EB7900C23A24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftDay2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PizzaPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = X625Y5VM28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -279,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dang.linda.SwiftDay2;
+				PRODUCT_BUNDLE_IDENTIFIER = dang.linda.PizzaPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		D7DFBA182D66B30B00F232FE /* Release */ = {
+		D706F9F92D67EB7900C23A24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftDay2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PizzaPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = X625Y5VM28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dang.linda.SwiftDay2;
+				PRODUCT_BUNDLE_IDENTIFIER = dang.linda.PizzaPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7DFBA032D66B30900F232FE /* Build configuration list for PBXProject "SwiftDay2" */ = {
+		D706F9E42D67EB7700C23A24 /* Build configuration list for PBXProject "PizzaPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DFBA142D66B30B00F232FE /* Debug */,
-				D7DFBA152D66B30B00F232FE /* Release */,
+				D706F9F52D67EB7900C23A24 /* Debug */,
+				D706F9F62D67EB7900C23A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7DFBA162D66B30B00F232FE /* Build configuration list for PBXNativeTarget "SwiftDay2" */ = {
+		D706F9F72D67EB7900C23A24 /* Build configuration list for PBXNativeTarget "PizzaPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DFBA172D66B30B00F232FE /* Debug */,
-				D7DFBA182D66B30B00F232FE /* Release */,
+				D706F9F82D67EB7900C23A24 /* Debug */,
+				D706F9F92D67EB7900C23A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7DFBA002D66B30900F232FE /* Project object */;
+	rootObject = D706F9E12D67EB7700C23A24 /* Project object */;
 }
