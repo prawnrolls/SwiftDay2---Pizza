@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var userName:String = ""
-   // @State private var selectTomato:Bool = false
-    //@State private var selectCheese:Bool = false
-    //@State private var selectMushroom:Bool = false
-    //@State private var selectedColor:Color = .blue
+    @State private var selectTomato:Bool = false
+    @State private var selectCheese:Bool = false
+    @State private var selectMushroom:Bool = false
+    @State private var selectedColor:Color = .blue
     
     var body: some View {
         VStack {
@@ -29,13 +29,13 @@ struct ContentView: View {
                     }
                     
                 Section(header: Text("Toppings")) {
-                    Toggle("Tomato", isOn: .constant(true))
-                    Toggle("Cheese", isOn: .constant(true))
-                    Toggle("Mushroom", isOn: .constant(false))
+                    Toggle("Tomato", isOn: $selectTomato)
+                    Toggle("Cheese", isOn: $selectCheese)
+                    Toggle("Mushroom", isOn: $selectMushroom)
                 }
                     
                   //  Section (
-                ColorPicker ("the color of your pizza box", selection: .constant(.blue))
+                ColorPicker ("the color of your pizza box", selection: $selectedColor)
                 }
                 
             }
